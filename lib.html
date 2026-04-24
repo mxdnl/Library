@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="lib.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+    <title>Library</title>
+</head>
+<body>
+
+    <div class="text">
+        <h1>My Book Library</h1>
+
+        <p>
+            This is a project for <a href="theodinproject.com">The Odin Project</a> 
+            in which I have to make a library using Object Constructors and LocalStorage.
+        </p>
+    </div>
+
+    <div class="add-book">
+        <div class="book-title-div">
+            <label for="book-title">Book</label>
+            <input type="text" id="book-title" required>
+        </div>
+
+        <div class="book-author-div">
+            <label for="book-author">Author</label>
+            <input type="text" id="book-author" required>
+        </div>
+
+        <div class="status-div">
+            <label for="status">Status</label>
+            <select name="Status" id="status">
+                <option value="read">Read</option>
+                <option value="not-read">Not Read</option>
+            </select>
+        </div>
+
+        <button class="submit">Submit</button>
+        
+    </div>
+
+    <div class="book-list">
+        <div class="name-column">Name</div>
+        <div class="author-column">Author</div>
+        <div class="status-column">Status</div>
+    </div>
+
+</body>
+</html>
