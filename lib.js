@@ -52,5 +52,7 @@ function addToTable(bookName, bookAuthor, bookStatus) {
         }
 
         deleteBtn.remove();
+
+        library.pop();
     })
 }
